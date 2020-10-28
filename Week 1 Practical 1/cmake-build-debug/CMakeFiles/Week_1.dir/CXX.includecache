@@ -1,0 +1,52 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/yongtenggg/Desktop/Poly/Year 2/Year 2 Sem 2/DSA/Practicals/Week 1/cmake-build-debug/Account.cpp
+iostream
+-
+Account.h
+/Users/yongtenggg/Desktop/Poly/Year 2/Year 2 Sem 2/DSA/Practicals/Week 1/cmake-build-debug/Account.h
+
+/Users/yongtenggg/Desktop/Poly/Year 2/Year 2 Sem 2/DSA/Practicals/Week 1/cmake-build-debug/Account.h
+iostream
+-
+string
+-
+
+/Users/yongtenggg/Desktop/Poly/Year 2/Year 2 Sem 2/DSA/Practicals/Week 1/cmake-build-debug/CheckingAccount.h
+iostream
+-
+string
+-
+Account.h
+/Users/yongtenggg/Desktop/Poly/Year 2/Year 2 Sem 2/DSA/Practicals/Week 1/cmake-build-debug/Account.h
+
+/Users/yongtenggg/Desktop/Poly/Year 2/Year 2 Sem 2/DSA/Practicals/Week 1/cmake-build-debug/SavingsAccount.h
+iostream
+-
+string
+-
+Account.h
+/Users/yongtenggg/Desktop/Poly/Year 2/Year 2 Sem 2/DSA/Practicals/Week 1/cmake-build-debug/Account.h
+
+/Users/yongtenggg/Desktop/Poly/Year 2/Year 2 Sem 2/DSA/Practicals/Week 1/cmake-build-debug/banking.cpp
+iostream
+-
+string
+-
+Account.h
+/Users/yongtenggg/Desktop/Poly/Year 2/Year 2 Sem 2/DSA/Practicals/Week 1/cmake-build-debug/Account.h
+SavingsAccount.h
+/Users/yongtenggg/Desktop/Poly/Year 2/Year 2 Sem 2/DSA/Practicals/Week 1/cmake-build-debug/SavingsAccount.h
+CheckingAccount.h
+/Users/yongtenggg/Desktop/Poly/Year 2/Year 2 Sem 2/DSA/Practicals/Week 1/cmake-build-debug/CheckingAccount.h
+vector
+-
+typeinfo
+-
+

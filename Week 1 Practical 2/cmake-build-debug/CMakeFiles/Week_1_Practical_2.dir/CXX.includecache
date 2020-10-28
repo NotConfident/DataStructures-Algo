@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/yongtenggg/Desktop/Poly/Year 2/Year 2 Sem 2/DSA/Practicals/Week 1 Practical 2/List.cpp
+List.h
+/Users/yongtenggg/Desktop/Poly/Year 2/Year 2 Sem 2/DSA/Practicals/Week 1 Practical 2/List.h
+iostream
+-
+string
+-
+Person.h
+/Users/yongtenggg/Desktop/Poly/Year 2/Year 2 Sem 2/DSA/Practicals/Week 1 Practical 2/Person.h
+List.h
+/Users/yongtenggg/Desktop/Poly/Year 2/Year 2 Sem 2/DSA/Practicals/Week 1 Practical 2/List.h
+list
+-
+
+/Users/yongtenggg/Desktop/Poly/Year 2/Year 2 Sem 2/DSA/Practicals/Week 1 Practical 2/List.h
+iostream
+-
+string
+-
+list
+-
+Person.h
+/Users/yongtenggg/Desktop/Poly/Year 2/Year 2 Sem 2/DSA/Practicals/Week 1 Practical 2/Person.h
+
+/Users/yongtenggg/Desktop/Poly/Year 2/Year 2 Sem 2/DSA/Practicals/Week 1 Practical 2/Person.h
+iostream
+-
+string
+-
+vector
+-
+list
+-
+

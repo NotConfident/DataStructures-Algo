@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/yongtenggg/Desktop/Poly/Year 2/Year 2 Sem 2/DSA/Practicals/DataStructures-Algo/Week 3 Practical 3/List.cpp
+List.h
+/Users/yongtenggg/Desktop/Poly/Year 2/Year 2 Sem 2/DSA/Practicals/DataStructures-Algo/Week 3 Practical 3/List.h
+string
+-
+iostream
+-
+
+/Users/yongtenggg/Desktop/Poly/Year 2/Year 2 Sem 2/DSA/Practicals/DataStructures-Algo/Week 3 Practical 3/List.h
+string
+-
+iostream
+-
+
+/Users/yongtenggg/Desktop/Poly/Year 2/Year 2 Sem 2/DSA/Practicals/DataStructures-Algo/Week 3 Practical 3/main.cpp
+iostream
+-
+List.h
+/Users/yongtenggg/Desktop/Poly/Year 2/Year 2 Sem 2/DSA/Practicals/DataStructures-Algo/Week 3 Practical 3/List.h
+

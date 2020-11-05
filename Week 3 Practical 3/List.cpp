@@ -4,77 +4,99 @@
 
 List :: List()
 {
-    Node *nameList = new Node;
-    firstNode = nameList;
+    firstNode == NULL;
+    size = 0;
+}
+
+List :: ~List()
+{
 }
 
 bool List :: add(ItemType item)
 {
-    if (size == 0)
-    {
-        Node *newNode = new Node;
-        newNode->item = item;
-        newNode->next = NULL;
+    Node *newNode = new Node;
+    newNode->item = item;
+    newNode->next = NULL;
 
+    if (firstNode == NULL)
+    {
         firstNode = newNode;
-        firstNode->next = newNode;
+        firstNode->next = NULL;
     }
+
     else
     {
-        Node *newNode1 = new Node;
-
-        newNode1->item = item;
-        newNode1->next = NULL;
-
-        firstNode[size].item = item;
-        firstNode[size].next = NULL;
-
-        firstNode[size - 1].next = newNode1;
+        Node *current = firstNode;
+        while(current->next != NULL)
+        {
+            current = current->next; // Traverse to the last node
+        }
+        current->next = newNode;
     }
     size++;
+    return true;
 }
 
 bool List :: add(int Index, ItemType item)
 {
-    if (size == 0)
-    {
-        Node *newNode = new Node;
-        newNode->item = item;
-        newNode->next = NULL;
+    Node *newNode = new Node;
+    newNode->item = item;
+    newNode->next = NULL;
 
+    if (firstNode == NULL)
+    {
         firstNode = newNode;
-        firstNode->next = newNode;
+        firstNode->next = NULL;
     }
     else
     {
         size++;
-        for (int i = size; i > Index; i--)
+        Node *current = firstNode;
+        for (int i = 0; i > Index - 1; i++)
         {
-            firstNode[i].item = firstNode[i - 1].item;
-            firstNode[i].next = NULL;
-
-            firstNode[i - 1].item = "";
-            firstNode[i - 1].next = NULL;
-            firstNode[i - 1].next = &firstNode[size];
+            current = current->next;
         }
-        firstNode[Index].item = item;
-        firstNode[Index].next = &firstNode[Index + 1];
+        current[Index - 1].next = newNode;
+        newNode->next = &current[Index];
     }
+    return true;
 }
 
 void List :: remove(int Index)
-{
-    if (Index == 0)
+{;
+    Node *current = firstNode;
+    if(Index == 0)
     {
-        firstNode[Index].next = NULL;
-        firstNode->next = &firstNode[Index + 1];
+        firstNode = current->next;
+        size--;
     }
-
     else
     {
-        firstNode[Index - 1].next = NULL;
-        firstNode[Index - 1].next = &firstNode[Index + 1];
+        for (int i = 0; i < Index - 1; i++)
+        {
+            current = current->next;
+        }
+        current->next = current->next->next;
+        size--;
     }
+}
+
+bool List :: isEmpty()
+{
+    if (size == 0)
+    {
+        return true;
+    }
+    else
+    {
+        return false;
+    }
+}
+
+ItemType List :: get(int index)
+{
+    Node temp = firstNode[index];
+    cout << temp.item << endl;
 }
 
 int List :: getLength()
@@ -84,8 +106,10 @@ int List :: getLength()
 
 void List :: print()
 {
-    for(int i = 0; i < size; i++)
+    Node *current = firstNode;
+    while(current != NULL)
     {
-        cout << firstNode[i].item << endl;
+        cout << current->item << endl;
+        current = current->next;
     }
 }

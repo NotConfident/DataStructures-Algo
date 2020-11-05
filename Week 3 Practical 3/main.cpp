@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 #include "List.h"
 
 int main()
@@ -6,17 +7,14 @@ int main()
     List list;
 
     list.add("Annie");
-    list.add("Jackie");
-    list.add("Among");
-    list.add("Us");
-    list.add("WTF");
-    list.add("S&P");
-    list.add("MacD");
+    list.add("Jacky");
+    list.add("Wendy");
 
-    list.remove(1);
+    list.add(1,"Brenda");
+    list.remove(3);
 
     list.print();
 
-
+    list.getLength();
 
 }

@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++  -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/Week_4_Practical_4.dir/main.cpp.o CMakeFiles/Week_4_Practical_4.dir/Stack.cpp.o  -o Week_4_Practical_4 

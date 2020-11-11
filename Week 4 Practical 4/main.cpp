@@ -20,13 +20,13 @@ int main()
     s.push(*ptr1);
     s.push(*ptr2);
 
-//    s.displayInOrder();
-    s.displayInOrderOfInsertion();
+    s.displayInOrder();
+//    s.displayInOrderOfInsertion();
 
 //    int number;
 //    s.getTop(number);
-    s.pop();
+//    s.pop();
 
-//    s.displayInOrder();
-    s.displayInOrderOfInsertion();
+    s.displayInOrder();
+//    s.displayInOrderOfInsertion();
 }

@@ -23,7 +23,6 @@ bool  Stack :: push(ItemType &item)
     {
         topNode = newNode;
         topNode->next = NULL;
-        count++;
     }
     else
     {
@@ -33,8 +32,8 @@ bool  Stack :: push(ItemType &item)
             current = current->next;
         }
         current->next = newNode;
-        count++;
     }
+    count++;
 }
 
 bool  Stack :: pop()

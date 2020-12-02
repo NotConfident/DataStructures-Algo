@@ -68,10 +68,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/yongtenggg/Desktop/Poly/Year 2/Year 2 Sem 2/DSA/Practicals/DataStructures-Algo/Week 6 Hash Tables"
+CMAKE_SOURCE_DIR = "/Users/yongtenggg/Desktop/Poly/Year 2/Year 2 Sem 2/DSA/Practicals/DataStructures-Algo/Week 7 Recursion"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/yongtenggg/Desktop/Poly/Year 2/Year 2 Sem 2/DSA/Practicals/DataStructures-Algo/Week 6 Hash Tables/cmake-build-debug"
+CMAKE_BINARY_DIR = "/Users/yongtenggg/Desktop/Poly/Year 2/Year 2 Sem 2/DSA/Practicals/DataStructures-Algo/Week 7 Recursion/cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -100,9 +100,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/yongtenggg/Desktop/Poly/Year 2/Year 2 Sem 2/DSA/Practicals/DataStructures-Algo/Week 6 Hash Tables/cmake-build-debug/CMakeFiles" "/Users/yongtenggg/Desktop/Poly/Year 2/Year 2 Sem 2/DSA/Practicals/DataStructures-Algo/Week 6 Hash Tables/cmake-build-debug/CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/yongtenggg/Desktop/Poly/Year 2/Year 2 Sem 2/DSA/Practicals/DataStructures-Algo/Week 7 Recursion/cmake-build-debug/CMakeFiles" "/Users/yongtenggg/Desktop/Poly/Year 2/Year 2 Sem 2/DSA/Practicals/DataStructures-Algo/Week 7 Recursion/cmake-build-debug/CMakeFiles/progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/yongtenggg/Desktop/Poly/Year 2/Year 2 Sem 2/DSA/Practicals/DataStructures-Algo/Week 6 Hash Tables/cmake-build-debug/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/yongtenggg/Desktop/Poly/Year 2/Year 2 Sem 2/DSA/Practicals/DataStructures-Algo/Week 7 Recursion/cmake-build-debug/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -131,44 +131,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Week_6
+# Target rules for targets named Week_7_Recursion
 
 # Build rule for target.
-Week_6: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Week_6
-.PHONY : Week_6
+Week_7_Recursion: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Week_7_Recursion
+.PHONY : Week_7_Recursion
 
 # fast build rule for target.
-Week_6/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Week_6.dir/build.make CMakeFiles/Week_6.dir/build
-.PHONY : Week_6/fast
-
-Dictionary.o: Dictionary.cpp.o
-
-.PHONY : Dictionary.o
-
-# target to build an object file
-Dictionary.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Week_6.dir/build.make CMakeFiles/Week_6.dir/Dictionary.cpp.o
-.PHONY : Dictionary.cpp.o
-
-Dictionary.i: Dictionary.cpp.i
-
-.PHONY : Dictionary.i
-
-# target to preprocess a source file
-Dictionary.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Week_6.dir/build.make CMakeFiles/Week_6.dir/Dictionary.cpp.i
-.PHONY : Dictionary.cpp.i
-
-Dictionary.s: Dictionary.cpp.s
-
-.PHONY : Dictionary.s
-
-# target to generate assembly for a file
-Dictionary.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Week_6.dir/build.make CMakeFiles/Week_6.dir/Dictionary.cpp.s
-.PHONY : Dictionary.cpp.s
+Week_7_Recursion/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Week_7_Recursion.dir/build.make CMakeFiles/Week_7_Recursion.dir/build
+.PHONY : Week_7_Recursion/fast
 
 main.o: main.cpp.o
 
@@ -176,7 +149,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Week_6.dir/build.make CMakeFiles/Week_6.dir/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Week_7_Recursion.dir/build.make CMakeFiles/Week_7_Recursion.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -185,7 +158,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Week_6.dir/build.make CMakeFiles/Week_6.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Week_7_Recursion.dir/build.make CMakeFiles/Week_7_Recursion.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -194,7 +167,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Week_6.dir/build.make CMakeFiles/Week_6.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Week_7_Recursion.dir/build.make CMakeFiles/Week_7_Recursion.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -205,10 +178,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... Week_6"
-	@echo "... Dictionary.o"
-	@echo "... Dictionary.i"
-	@echo "... Dictionary.s"
+	@echo "... Week_7_Recursion"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

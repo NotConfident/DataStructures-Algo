@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/yongtenggg/Desktop/Poly/Year 2/Year 2 Sem 2/DSA/Practicals/DataStructures-Algo/Week 6/cmake-build-debug"/>
+				<Option working_dir="/Users/yongtenggg/Desktop/Poly/Year 2/Year 2 Sem 2/DSA/Practicals/DataStructures-Algo/Week 6 Hash Tables/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/yongtenggg/Desktop/Poly/Year\ 2/Year\ 2\ Sem\ 2/DSA/Practicals/DataStructures-Algo/Week\ 6/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/yongtenggg/Desktop/Poly/Year\ 2/Year\ 2\ Sem\ 2/DSA/Practicals/DataStructures-Algo/Week\ 6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/yongtenggg/Desktop/Poly/Year\ 2/Year\ 2\ Sem\ 2/DSA/Practicals/DataStructures-Algo/Week\ 6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/yongtenggg/Desktop/Poly/Year\ 2/Year\ 2\ Sem\ 2/DSA/Practicals/DataStructures-Algo/Week\ 6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/yongtenggg/Desktop/Poly/Year\ 2/Year\ 2\ Sem\ 2/DSA/Practicals/DataStructures-Algo/Week\ 6\ Hash\ Tables/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/yongtenggg/Desktop/Poly/Year\ 2/Year\ 2\ Sem\ 2/DSA/Practicals/DataStructures-Algo/Week\ 6\ Hash\ Tables/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/yongtenggg/Desktop/Poly/Year\ 2/Year\ 2\ Sem\ 2/DSA/Practicals/DataStructures-Algo/Week\ 6\ Hash\ Tables/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/yongtenggg/Desktop/Poly/Year\ 2/Year\ 2\ Sem\ 2/DSA/Practicals/DataStructures-Algo/Week\ 6\ Hash\ Tables/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/yongtenggg/Desktop/Poly/Year 2/Year 2 Sem 2/DSA/Practicals/DataStructures-Algo/Week 6/cmake-build-debug"/>
+				<Option working_dir="/Users/yongtenggg/Desktop/Poly/Year 2/Year 2 Sem 2/DSA/Practicals/DataStructures-Algo/Week 6 Hash Tables/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/yongtenggg/Desktop/Poly/Year\ 2/Year\ 2\ Sem\ 2/DSA/Practicals/DataStructures-Algo/Week\ 6/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/yongtenggg/Desktop/Poly/Year\ 2/Year\ 2\ Sem\ 2/DSA/Practicals/DataStructures-Algo/Week\ 6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/yongtenggg/Desktop/Poly/Year\ 2/Year\ 2\ Sem\ 2/DSA/Practicals/DataStructures-Algo/Week\ 6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/yongtenggg/Desktop/Poly/Year\ 2/Year\ 2\ Sem\ 2/DSA/Practicals/DataStructures-Algo/Week\ 6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/yongtenggg/Desktop/Poly/Year\ 2/Year\ 2\ Sem\ 2/DSA/Practicals/DataStructures-Algo/Week\ 6\ Hash\ Tables/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/yongtenggg/Desktop/Poly/Year\ 2/Year\ 2\ Sem\ 2/DSA/Practicals/DataStructures-Algo/Week\ 6\ Hash\ Tables/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/yongtenggg/Desktop/Poly/Year\ 2/Year\ 2\ Sem\ 2/DSA/Practicals/DataStructures-Algo/Week\ 6\ Hash\ Tables/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/yongtenggg/Desktop/Poly/Year\ 2/Year\ 2\ Sem\ 2/DSA/Practicals/DataStructures-Algo/Week\ 6\ Hash\ Tables/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/yongtenggg/Desktop/Poly/Year 2/Year 2 Sem 2/DSA/Practicals/DataStructures-Algo/Week 6/cmake-build-debug"/>
+				<Option working_dir="/Users/yongtenggg/Desktop/Poly/Year 2/Year 2 Sem 2/DSA/Practicals/DataStructures-Algo/Week 6 Hash Tables/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/yongtenggg/Desktop/Poly/Year\ 2/Year\ 2\ Sem\ 2/DSA/Practicals/DataStructures-Algo/Week\ 6/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/yongtenggg/Desktop/Poly/Year\ 2/Year\ 2\ Sem\ 2/DSA/Practicals/DataStructures-Algo/Week\ 6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/yongtenggg/Desktop/Poly/Year\ 2/Year\ 2\ Sem\ 2/DSA/Practicals/DataStructures-Algo/Week\ 6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/yongtenggg/Desktop/Poly/Year\ 2/Year\ 2\ Sem\ 2/DSA/Practicals/DataStructures-Algo/Week\ 6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/yongtenggg/Desktop/Poly/Year\ 2/Year\ 2\ Sem\ 2/DSA/Practicals/DataStructures-Algo/Week\ 6\ Hash\ Tables/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/yongtenggg/Desktop/Poly/Year\ 2/Year\ 2\ Sem\ 2/DSA/Practicals/DataStructures-Algo/Week\ 6\ Hash\ Tables/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/yongtenggg/Desktop/Poly/Year\ 2/Year\ 2\ Sem\ 2/DSA/Practicals/DataStructures-Algo/Week\ 6\ Hash\ Tables/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/yongtenggg/Desktop/Poly/Year\ 2/Year\ 2\ Sem\ 2/DSA/Practicals/DataStructures-Algo/Week\ 6\ Hash\ Tables/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Week_6">
-				<Option output="/Users/yongtenggg/Desktop/Poly/Year 2/Year 2 Sem 2/DSA/Practicals/DataStructures-Algo/Week 6/cmake-build-debug/Week_6" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/yongtenggg/Desktop/Poly/Year 2/Year 2 Sem 2/DSA/Practicals/DataStructures-Algo/Week 6/cmake-build-debug"/>
+				<Option output="/Users/yongtenggg/Desktop/Poly/Year 2/Year 2 Sem 2/DSA/Practicals/DataStructures-Algo/Week 6 Hash Tables/cmake-build-debug/Week_6" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yongtenggg/Desktop/Poly/Year 2/Year 2 Sem 2/DSA/Practicals/DataStructures-Algo/Week 6 Hash Tables/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -53,15 +53,15 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/yongtenggg/Desktop/Poly/Year\ 2/Year\ 2\ Sem\ 2/DSA/Practicals/DataStructures-Algo/Week\ 6/cmake-build-debug/Makefile&quot;  VERBOSE=1 Week_6"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/yongtenggg/Desktop/Poly/Year\ 2/Year\ 2\ Sem\ 2/DSA/Practicals/DataStructures-Algo/Week\ 6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/yongtenggg/Desktop/Poly/Year\ 2/Year\ 2\ Sem\ 2/DSA/Practicals/DataStructures-Algo/Week\ 6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/yongtenggg/Desktop/Poly/Year\ 2/Year\ 2\ Sem\ 2/DSA/Practicals/DataStructures-Algo/Week\ 6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/yongtenggg/Desktop/Poly/Year\ 2/Year\ 2\ Sem\ 2/DSA/Practicals/DataStructures-Algo/Week\ 6\ Hash\ Tables/cmake-build-debug/Makefile&quot;  VERBOSE=1 Week_6"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/yongtenggg/Desktop/Poly/Year\ 2/Year\ 2\ Sem\ 2/DSA/Practicals/DataStructures-Algo/Week\ 6\ Hash\ Tables/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/yongtenggg/Desktop/Poly/Year\ 2/Year\ 2\ Sem\ 2/DSA/Practicals/DataStructures-Algo/Week\ 6\ Hash\ Tables/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/yongtenggg/Desktop/Poly/Year\ 2/Year\ 2\ Sem\ 2/DSA/Practicals/DataStructures-Algo/Week\ 6\ Hash\ Tables/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Week_6/fast">
-				<Option output="/Users/yongtenggg/Desktop/Poly/Year 2/Year 2 Sem 2/DSA/Practicals/DataStructures-Algo/Week 6/cmake-build-debug/Week_6" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/yongtenggg/Desktop/Poly/Year 2/Year 2 Sem 2/DSA/Practicals/DataStructures-Algo/Week 6/cmake-build-debug"/>
+				<Option output="/Users/yongtenggg/Desktop/Poly/Year 2/Year 2 Sem 2/DSA/Practicals/DataStructures-Algo/Week 6 Hash Tables/cmake-build-debug/Week_6" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yongtenggg/Desktop/Poly/Year 2/Year 2 Sem 2/DSA/Practicals/DataStructures-Algo/Week 6 Hash Tables/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -75,23 +75,23 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/yongtenggg/Desktop/Poly/Year\ 2/Year\ 2\ Sem\ 2/DSA/Practicals/DataStructures-Algo/Week\ 6/cmake-build-debug/Makefile&quot;  VERBOSE=1 Week_6/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/yongtenggg/Desktop/Poly/Year\ 2/Year\ 2\ Sem\ 2/DSA/Practicals/DataStructures-Algo/Week\ 6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/yongtenggg/Desktop/Poly/Year\ 2/Year\ 2\ Sem\ 2/DSA/Practicals/DataStructures-Algo/Week\ 6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/yongtenggg/Desktop/Poly/Year\ 2/Year\ 2\ Sem\ 2/DSA/Practicals/DataStructures-Algo/Week\ 6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/yongtenggg/Desktop/Poly/Year\ 2/Year\ 2\ Sem\ 2/DSA/Practicals/DataStructures-Algo/Week\ 6\ Hash\ Tables/cmake-build-debug/Makefile&quot;  VERBOSE=1 Week_6/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/yongtenggg/Desktop/Poly/Year\ 2/Year\ 2\ Sem\ 2/DSA/Practicals/DataStructures-Algo/Week\ 6\ Hash\ Tables/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/yongtenggg/Desktop/Poly/Year\ 2/Year\ 2\ Sem\ 2/DSA/Practicals/DataStructures-Algo/Week\ 6\ Hash\ Tables/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/yongtenggg/Desktop/Poly/Year\ 2/Year\ 2\ Sem\ 2/DSA/Practicals/DataStructures-Algo/Week\ 6\ Hash\ Tables/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/yongtenggg/Desktop/Poly/Year 2/Year 2 Sem 2/DSA/Practicals/DataStructures-Algo/Week 6/Dictionary.cpp">
+		<Unit filename="/Users/yongtenggg/Desktop/Poly/Year 2/Year 2 Sem 2/DSA/Practicals/DataStructures-Algo/Week 6 Hash Tables/Dictionary.cpp">
 			<Option target="Week_6"/>
 		</Unit>
-		<Unit filename="/Users/yongtenggg/Desktop/Poly/Year 2/Year 2 Sem 2/DSA/Practicals/DataStructures-Algo/Week 6/Dictionary.h">
+		<Unit filename="/Users/yongtenggg/Desktop/Poly/Year 2/Year 2 Sem 2/DSA/Practicals/DataStructures-Algo/Week 6 Hash Tables/Dictionary.h">
 			<Option target="Week_6"/>
 		</Unit>
-		<Unit filename="/Users/yongtenggg/Desktop/Poly/Year 2/Year 2 Sem 2/DSA/Practicals/DataStructures-Algo/Week 6/main.cpp">
+		<Unit filename="/Users/yongtenggg/Desktop/Poly/Year 2/Year 2 Sem 2/DSA/Practicals/DataStructures-Algo/Week 6 Hash Tables/main.cpp">
 			<Option target="Week_6"/>
 		</Unit>
-		<Unit filename="/Users/yongtenggg/Desktop/Poly/Year 2/Year 2 Sem 2/DSA/Practicals/DataStructures-Algo/Week 6/CMakeLists.txt">
+		<Unit filename="/Users/yongtenggg/Desktop/Poly/Year 2/Year 2 Sem 2/DSA/Practicals/DataStructures-Algo/Week 6 Hash Tables/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

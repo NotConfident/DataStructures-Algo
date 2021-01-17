@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++  -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/Week_9_Trees.dir/main.cpp.o CMakeFiles/Week_9_Trees.dir/BST.cpp.o  -o Week_9_Trees 

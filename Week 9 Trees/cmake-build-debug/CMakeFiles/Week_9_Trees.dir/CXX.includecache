@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/yongtenggg/Desktop/Poly/Year 2/Year 2 Sem 2/DSA/Practicals/DataStructures-Algo/Week 9 Trees/BST.cpp
+iostream
+-
+BST.h
+/Users/yongtenggg/Desktop/Poly/Year 2/Year 2 Sem 2/DSA/Practicals/DataStructures-Algo/Week 9 Trees/BST.h
+
+/Users/yongtenggg/Desktop/Poly/Year 2/Year 2 Sem 2/DSA/Practicals/DataStructures-Algo/Week 9 Trees/BST.h
+iostream
+-
+BinaryNode.h
+/Users/yongtenggg/Desktop/Poly/Year 2/Year 2 Sem 2/DSA/Practicals/DataStructures-Algo/Week 9 Trees/BinaryNode.h
+
+/Users/yongtenggg/Desktop/Poly/Year 2/Year 2 Sem 2/DSA/Practicals/DataStructures-Algo/Week 9 Trees/BinaryNode.h
+
+/Users/yongtenggg/Desktop/Poly/Year 2/Year 2 Sem 2/DSA/Practicals/DataStructures-Algo/Week 9 Trees/main.cpp
+iostream
+-
+string
+-
+BST.h
+/Users/yongtenggg/Desktop/Poly/Year 2/Year 2 Sem 2/DSA/Practicals/DataStructures-Algo/Week 9 Trees/BST.h
+
